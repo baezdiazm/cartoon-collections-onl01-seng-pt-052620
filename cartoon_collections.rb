@@ -19,13 +19,20 @@ def roll_call_dwarves(names)
   end
 ######################################################################################################################
 def long_planeteer_calls(array)
+
   counter = 0
   returnvalues = []
-  while counter < array.length
-    returnvalues << yield(array[counter])
-    counter += 1
+  returnvalues << (array.collect{|x| x.size > 4})
+  #puts returnvalues
+
+  if returnvalues.any? {|x| x == true}
+    puts "ALL elements evaluated to be TRUE"
+    puts returnvalues
+  else
+    puts "SOME elements evaluated FALSE"
+    puts returnvalues
   end
-  puts returnvalues
+
 end
 ######################################################################################################################
   def find_the_cheese# code an argument here
