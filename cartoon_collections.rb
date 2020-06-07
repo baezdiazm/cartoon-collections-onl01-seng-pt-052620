@@ -25,7 +25,7 @@ def long_planeteer_calls(array)
   returnvalues << (array.collect{|x| x.size > 4})
   #puts returnvalues
 
-  if returnvalues.any? {|x| x == true}
+  if returnvalues.any?
 true
   elsif returnvalues.any? {|x| x == true}
 false
