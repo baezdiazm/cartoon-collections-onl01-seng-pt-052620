@@ -21,7 +21,7 @@ def roll_call_dwarves(names)
 def long_planeteer_calls(array)
   planeteer_calls.any? do |call|
   call.length > 4
-  end
+
   end
 
 end
