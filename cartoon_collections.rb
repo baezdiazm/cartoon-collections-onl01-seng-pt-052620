@@ -19,7 +19,7 @@ def roll_call_dwarves(names)
   end
   ######################################################################################################################
   def long_planeteer_calls(array)
-    planeteer_calls.any? do |call|
+    array.any? do |call|
       call.length > 4
 
     end
