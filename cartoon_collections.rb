@@ -28,7 +28,7 @@ def long_planeteer_calls(array)
   if returnvalues.any?
 true
   elsif returnvalues.any? {|x| x == false}
-true
+false
   end
 
 end
