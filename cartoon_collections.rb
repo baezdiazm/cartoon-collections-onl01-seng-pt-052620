@@ -11,7 +11,7 @@ def roll_call_dwarves(names)
     cap = []
     while counter < planeteer.length
       planeteer.each do |name|
-      cap << planeteer[counter].capitalize
+      cap << "#{planeteer[counter].capitalize}!"
       counter += 1
     end
     end
