@@ -13,6 +13,7 @@ def roll_call_dwarves(names)
       cap << planeteer[counter].capitalize
       counter += 1
     end
+    cap
   end
 
   def long_planeteer_calls# code an argument here
