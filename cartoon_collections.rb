@@ -19,16 +19,9 @@ def roll_call_dwarves(names)
   end
 ######################################################################################################################
 def long_planeteer_calls(array)
-
-  counter = 0
-  returnvalues = []
-  returnvalues << (array.collect{|x| x.size > 4})
-  #puts returnvalues
-
-  if returnvalues.any?
-true
-  elsif returnvalues.all? {|x| x == false}
-false
+  planeteer_calls.any? do |call|
+  call.length > 4
+  end
   end
 
 end
