@@ -26,11 +26,9 @@ def long_planeteer_calls(array)
   #puts returnvalues
 
   if returnvalues.any? {|x| x == true}
-    puts "ALL elements evaluated to be TRUE"
-    puts returnvalues
+true
   else
-    puts "SOME elements evaluated FALSE"
-    puts returnvalues
+false
   end
 
 end
