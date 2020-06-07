@@ -6,7 +6,7 @@ def roll_call_dwarves(names)
     end
   end
 ######################################################################################################################
-  def summon_captain_planet(paneteer)
+  def summon_captain_planet(planeteer)
     counter = 0
     cap = []
     while counter < planeteer.length
