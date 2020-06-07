@@ -5,21 +5,23 @@ def roll_call_dwarves(names)
       counter +=1
     end
   end
-
+######################################################################################################################
   def summon_captain_planet(paneteer)
     counter = 0
     cap = []
     while counter < planeteer.length
+      planeteer.each do |name|
       cap << planeteer[counter].capitalize
       counter += 1
     end
+    end
     cap
   end
-
+######################################################################################################################
   def long_planeteer_calls# code an argument here
     # Your code here
   end
-
+######################################################################################################################
   def find_the_cheese# code an argument here
     # the array below is here to help
     cheese_types = ["cheddar", "gouda", "camembert"]
