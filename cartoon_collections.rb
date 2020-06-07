@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   counter = 0
   while counter < names.length
-    names.each do |name| puts "#{counter+1}. #{name}"
+    names.each do |name| puts "#{counter+1}. #{name}" end
       counter +=1
     end
   end
